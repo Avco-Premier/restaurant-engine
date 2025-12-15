@@ -4,7 +4,9 @@
       --surface:#ffffff;           /* cards */
       --surface2:#f4efe8;          /* subtle contrast */
       --text:#2b2b2b;              /* readable dark */
-      --muted:#6f6a63;             /* warm gray */
+      --muted:#6f6a63;     
+      --border: rgba(0,0,0,.10);
+      --shadow: 0 14px 36px rgba(0,0,0,.12);   /* warm gray */
       --radius:18px;
       --pill:999px;
       --shadow:0 18px 50px rgba(0,0,0,.45);
