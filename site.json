@@ -1,0 +1,10 @@
+{
+    "name": "Restaurant Name",
+    "taglineHeadline": "Restaurant Tagline",
+    "taglineSub": "Descriptive Subtitle",
+    "orderUrl": "#",
+    "phoneDisplay": "000-000-0000",
+    "phoneRaw": "10000000000",
+    "address": "City, State",
+    "accent": "#304873"
+}
