@@ -59,6 +59,7 @@
     .btn-primary:hover{filter:brightness(1.08)}
 
     .hero{padding:26px 0}
+    .hero-media h1 { margin: 0; }
     .hero-card{
       border:1px solid var(--border);
       border-radius:var(--radius);
@@ -67,13 +68,19 @@
       background:var(--surface);
     }
     .hero-media{
+      min-height: 360px;
+      display: flex;
+      align-items: flex-end;
+      padding: var(--s6);
+    
       background:
-        linear-gradient(
-          rgba(0,0,0,.15),
-          rgba(0,0,0,.35)
-        ),
-        var(--hero-image) center/cover no-repeat;
+        linear-gradient(rgba(255,255,255,.10), rgba(255,255,255,.55)),
+        linear-gradient(rgba(0,0,0,.10), rgba(0,0,0,.30)),
+        var(--hero-image, none) center/cover no-repeat;
+    
+      border-bottom: 1px solid var(--border);
     }
+    
 
     h1{font-size:clamp(2.1rem,3.7vw,3.2rem);line-height:1.05;letter-spacing:-0.02em}
     .subtitle{color:var(--muted);margin-top:10px;font-size:1.05rem}
