@@ -19,6 +19,10 @@ async function loadConfig() {
       document.title = `${cfg.name} | Order Online`;
       document.documentElement.style.setProperty("--avco-blue", cfg.accent || "#304873");
   
+      if (cfg.hero) {
+        document.documentElement.style.setProperty("--hero-image", `url("${cfg.hero}")`);
+      }
+  
       setText("name", cfg.name);
       setText("taglineHeadline", cfg.taglineHeadline);
       setText("taglineSub", cfg.taglineSub);
